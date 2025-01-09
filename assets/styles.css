@@ -3,8 +3,8 @@ body{
     font-family: 'Libre Caslon Text', Times, serif;
 }
 main {
-    margin-top: 100px;
-    margin-left: 300px;
+    margin-top: 10%;
+    margin-left: 10%;
     padding: 20px;
     text-align: center;
     width: 600px;
@@ -18,6 +18,9 @@ main {
     justify-content: center;
     align-items: center;
     padding: 20px;
+}
+.hidden {
+    display: none;
 }
 #number, 
 #output {
@@ -39,4 +42,5 @@ main {
 #output {
     font-size: 1.2em;
     font-weight: 700;
+    margin-top: 30px;
 }
